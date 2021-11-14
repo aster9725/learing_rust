@@ -1,0 +1,6 @@
+[submodule "books/rust-embedded"]
+	path = books/rust-embedded
+	url = https://github.com/rust-embedded/book.git
+[submodule "books/rust-lang"]
+	path = books/rust-lang
+	url = https://github.com/rust-lang/book.git
