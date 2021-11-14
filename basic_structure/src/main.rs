@@ -1,17 +1,16 @@
 use std::io;
 
 fn main() {
-    let mut x = 5;
-
-    println!("The value of x is: {}", x);
-    x = 6;
-    println!("The value of x is: {}", x);
-
     let mut str = String::new();
 
+    println!("Basic command lists");
+    println!("\t1. Create new project");
+    println!("\t2. Build");
+    println!("\t3. Debug");
+    println!("Select > ");
     io::stdin()
         .read_line(&mut str)
         .expect("Failed to read line");
 
-    println!("You typed this string: {}", str);
+    println!("You typed {}", str);
 }
